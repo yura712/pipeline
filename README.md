@@ -1,8 +1,8 @@
-To do the next steps to deploy the project
+## To do the next steps to deploy the project
 
-Set up the connection to db in .env 
+Update .env (set up a connection to your db)
 
-php artisan migrate 
-php artisan db:seed --class=UserSeeder
-php artisan db:seed --class=PostSeeder
-php artisan serve
+1. php artisan migrate 
+2. php artisan db:seed --class=UserSeeder
+3. php artisan db:seed --class=PostSeeder
+4. php artisan serve
